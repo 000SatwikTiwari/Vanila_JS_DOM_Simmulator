@@ -1,0 +1,133 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+        .search{
+            box-sizing: border-box;
+            border: 1px solid;
+            width: 100vw;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           background: white;
+           z-index: 4000;
+
+            position: sticky;
+            top: 0;
+            
+        }
+        .find{
+           text-align: center;
+           width: 60vw;
+           height: 40px;  
+           font-size: 20px;
+            border-radius: 30px;        
+
+        }
+        .add img{
+            width: 50px;
+            position: fixed;
+            right: 30px;
+            bottom: 10px;
+        }
+
+       .form {
+    position: fixed;
+    border: 1px solid;
+    height: 100px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cut img{
+    width: 20px;
+}
+.cut{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: white;
+   border: 1px solid white;
+
+}
+.container{
+    border: 1px solid;
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+ border: 1px solid;
+ width: 50%;
+ height: 100%;
+ overflow-y: scroll;
+ scrollbar-width: none;
+}
+.i{
+    position: relative;
+     
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remove img{
+    width: 30px;
+}
+.remove{
+    position: absolute;
+    left: 5px;
+    background: white;
+    border: 1px solid white;
+}
+.in_bt{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+#title{
+    width: 70%;
+}
+#Sav{
+    width: 40px;
+}
+.error{
+    color: red;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.suggestions{
+    position: absolute;
+    top: 65px;
+    left: 15%;
+    width: 70%;
+    max-height: 300px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    z-index: 3000;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    padding: 6px;
+    box-sizing: border-box;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+.item:hover{
+    background: rgb(203, 202, 202);
+}
